@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+**/node_modules/
+package-lock.json
+
+# Large files
+*.pkl
+model_outputs/
+2_Final_model.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+**/venv/
+
+# Environment
+.env
+.env.*
+
+# System files
+.DS_Store
+**/.DS_Store
+
+# Build
+dist/
+build/
